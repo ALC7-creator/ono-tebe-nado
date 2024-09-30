@@ -31,42 +31,43 @@
           alt="Логотип проекта -Оно тебе надо- черный"
         />
       </a>
-      <nav class="header_menu-contacts">
-        <address class="adress">
-          <ul class="header-menu_list-contacts">
-            <li class="header-menu-contacts_item">
-              <a href="tel:+99995555555" class="adress header-menu_link">
-                +9 999 555 5555</a
-              >
-            </li>
-            <li class="header-menu-contacts_item">
-              <a class="adress header-menu_link" href="mailto:info@sobaka.ge">
-                info@sobaka.ge
-              </a>
-            </li>
-            <li class="header-menu-item header-menu_item-active">
-              <a class="adress header-menu_link">
-                наб. Принсенграхт 263- 265, Амстердам
-              </a>
-            </li>
-          </ul>
-        </address>
-      </nav>
+      <address class="adress header_menu-contacts">
+        <ul class="header-menu_list-contacts">
+          <li class="header-menu-contacts_item">
+            <a href="tel:+99995555555" class="header-menu_link">
+              +9 999 555 5555</a
+            >
+          </li>
+          <li class="header-menu-contacts_item">
+            <a class="header-menu_link" href="mailto:info@sobaka.ge">
+              info@sobaka.ge
+            </a>
+          </li>
+          <li class="header-menu-item header-menu_item-active">
+            <!-- Для следующего пункта можно использовать как тег p, 
+             так и тег a, если ссылка будет вести на отдельную страницу с 
+             расположением адреса на картинке или в навигаторе-->
+            <p class="header-menu_link">
+              наб. Принсенграхт 263- 265, Амстердам
+            </p>
+          </li>
+        </ul>
+      </address>
     </header>
     <main id="main">
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover_title">
           <span class="aligned-text"
-            >О<span class="letter-spacing-extended">НО</span></span
+            >О<span class="letter-spacing-extended">но</span></span
           >
           <span class="aligned-text aligned-text_center"
-            >ТЕ<span class="letter-spacing-extended">БЕ</span></span
+            >те<span class="letter-spacing-extended">бе</span></span
           >
           <span class="aligned-text aligned-text_right"
-            ><span class="letter-spacing-extended">Н</span>АД<span
+            ><span class="letter-spacing-extended">н</span>ад<span
               class="no-letter-spacing"
-              >О</span
+              >о</span
             ></span
           >
         </h1>
@@ -74,7 +75,7 @@
           <p class="cover_description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
@@ -142,7 +143,7 @@
         </div>
         <div class="about-text_part">
           <h2 class="about-title">Об аукционе</h2>
-          <p class="about-text first-paragraph">
+          <p class="about-text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
@@ -161,27 +162,30 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer-menu">
-        <address class="adress-footer">
-          <ul class="footer-menu_list">
-            <li class="footer-menu_list-item">
-              <a href="tel:+99995555555" class="footer-menu_link"
-                >+9 999 555 5555</a
-              >
-            </li>
-            <li class="footer-menu_list-item">
-              <a href="info@sobaka.ge" class="footer-menu_link"
-                >info@sobaka.ge</a
-              >
-            </li>
-            <li class="footer-menu_list-item">
-              <a class="footer-menu_link footer-menu_link-active" href="#"
-                >наб. Принсенграхт 263- 265, Амстердам</a
-              >
-            </li>
-          </ul>
-        </address>
-      </nav>
+      <!--Используется отличный от header'а address 
+      в связи с рекомендациями задания.-->
+      <address class="adress-footer footer-menu">
+        <ul class="footer-menu_list">
+          <li class="footer-menu_list-item">
+            <a href="tel:+99995555555" class="footer-menu_link"
+              >+9 999 555 5555</a
+            >
+          </li>
+          <li class="footer-menu_list-item">
+            <a href="mailto:info@sobaka.ge" class="footer-menu_link"
+              >info@sobaka.ge</a
+            >
+          </li>
+          <li class="footer-menu_list-item">
+            <!-- Для следующего пункта можно использовать как тег p, 
+             так и тег a, если ссылка будет вести на отдельную страницу с 
+             расположением адреса на картинке или в навигаторе-->
+            <p class="footer-menu_link footer-menu_link-active">
+              наб. Принсенграхт 263- 265, Амстердам
+            </p>
+          </li>
+        </ul>
+      </address>
       <nav class="footer-menu">
         <ul class="footer-menu_list">
           <li class="footer-menu_list-item">
