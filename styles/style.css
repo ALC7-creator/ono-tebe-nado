@@ -25,7 +25,7 @@
   font-weight: 400;
   font-size: 18px;
   text-decoration: underline;
-  line-height: 135%;
+  line-height: 116%;
 }
 
 .header-menu_item-active {
@@ -37,6 +37,7 @@
 }
 
 .header_menu-contacts {
+  max-width: 237px;
   display: flex;
   flex-direction: column;
   justify-self: end;
@@ -54,11 +55,6 @@
 
 .adress {
   font-style: normal;
-  max-width: 237px;
-  display: flex;
-  flex-direction: column;
-  justify-self: end;
-  align-self: center;
 }
 
 .header-logo {
@@ -281,12 +277,14 @@
 
 .footer-menu {
   text-align: center;
-}
-
-.adress-footer {
-  font-style: normal;
-  text-align: left;
   max-width: 237px;
+}
+/*Если данный код успешно пройдет проверку, то прошу пожалуйста разъяснить почему
+аналогичное нижнему свойство, только с селектором .footer-menu, центрировало
+сразу две колонки вместо одной(последней).Если же будут ошибки, то соотвественно
+ничего комментировать по этому поводу не нужно*/
+.adress:last-of-type {
+  text-align: left;
 }
 
 .footer-menu_list {
