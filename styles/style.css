@@ -268,7 +268,7 @@
   letter-spacing: 0.01em;
 }
 
-.about-text:nth-of-type(2) {
+.about-text:last-of-type {
   padding-bottom: 0px;
 }
 
